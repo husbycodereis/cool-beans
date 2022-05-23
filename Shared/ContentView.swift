@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+//StateObject means the data is created and used inside the view and keeps the variable alive in the view
 
 struct ContentView: View {
+    @StateObject var menu = Menu()
+    
     var body: some View {
-        Text("Cool Beans!")
-            .padding()
+        MenuView()
+            .environmentObject(menu)
     }
 }
 

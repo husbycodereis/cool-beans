@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA87BD97283B958700AB149C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD96283B958700AB149C /* Tests_iOS.swift */; };
-		CA87BD99283B958700AB149C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD98283B958700AB149C /* Tests_iOSLaunchTests.swift */; };
-		CA87BDA3283B958700AB149C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDA2283B958700AB149C /* Tests_macOS.swift */; };
-		CA87BDA5283B958700AB149C /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDA4283B958700AB149C /* Tests_macOSLaunchTests.swift */; };
+		CA2E5A7B283BADB8006987C2 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */; };
+		CA2E5A7D283BB214006987C2 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */; };
 		CA87BDA6283B958700AB149C /* CoolBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD7E283B958700AB149C /* CoolBeansApp.swift */; };
 		CA87BDA7283B958700AB149C /* CoolBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD7E283B958700AB149C /* CoolBeansApp.swift */; };
 		CA87BDA8283B958700AB149C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD7F283B958700AB149C /* ContentView.swift */; };
 		CA87BDA9283B958700AB149C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD7F283B958700AB149C /* ContentView.swift */; };
 		CA87BDAA283B958700AB149C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA87BD80283B958700AB149C /* Assets.xcassets */; };
 		CA87BDAB283B958700AB149C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA87BD80283B958700AB149C /* Assets.xcassets */; };
+		CA87BDBB283B976C00AB149C /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = CA87BDBA283B976C00AB149C /* menu.json */; };
+		CA87BDBC283B976C00AB149C /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = CA87BDBA283B976C00AB149C /* menu.json */; };
+		CA87BDBE283B981F00AB149C /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDBD283B981F00AB149C /* Drink.swift */; };
+		CA87BDC0283B994400AB149C /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDBF283B994400AB149C /* MenuSection.swift */; };
+		CA87BDC2283B997B00AB149C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDC1283B997B00AB149C /* Menu.swift */; };
+		CA87BDC4283B9C8600AB149C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDC3283B9C8600AB149C /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,18 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
+		CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 		CA87BD7E283B958700AB149C /* CoolBeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansApp.swift; sourceTree = "<group>"; };
 		CA87BD7F283B958700AB149C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA87BD80283B958700AB149C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA87BD85283B958700AB149C /* CoolBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA87BD8B283B958700AB149C /* CoolBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA87BD8D283B958700AB149C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		CA87BD92283B958700AB149C /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA87BD96283B958700AB149C /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
-		CA87BD98283B958700AB149C /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
 		CA87BD9E283B958700AB149C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA87BDA2283B958700AB149C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
-		CA87BDA4283B958700AB149C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		CA87BDBA283B976C00AB149C /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		CA87BDBD283B981F00AB149C /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		CA87BDBF283B994400AB149C /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		CA87BDC1283B997B00AB149C /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		CA87BDC3283B9C8600AB149C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				CA87BD7D283B958700AB149C /* Shared */,
-				CA87BD8C283B958700AB149C /* macOS */,
-				CA87BD95283B958700AB149C /* Tests iOS */,
-				CA87BDA1283B958700AB149C /* Tests macOS */,
 				CA87BD86283B958700AB149C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +102,14 @@
 			children = (
 				CA87BD7E283B958700AB149C /* CoolBeansApp.swift */,
 				CA87BD7F283B958700AB149C /* ContentView.swift */,
+				CA87BDC3283B9C8600AB149C /* MenuView.swift */,
+				CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */,
+				CA87BDBF283B994400AB149C /* MenuSection.swift */,
+				CA87BDC1283B997B00AB149C /* Menu.swift */,
+				CA87BDBA283B976C00AB149C /* menu.json */,
 				CA87BD80283B958700AB149C /* Assets.xcassets */,
+				CA87BDBD283B981F00AB149C /* Drink.swift */,
+				CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -113,32 +123,6 @@
 				CA87BD9E283B958700AB149C /* Tests macOS.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CA87BD8C283B958700AB149C /* macOS */ = {
-			isa = PBXGroup;
-			children = (
-				CA87BD8D283B958700AB149C /* macOS.entitlements */,
-			);
-			path = macOS;
-			sourceTree = "<group>";
-		};
-		CA87BD95283B958700AB149C /* Tests iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CA87BD96283B958700AB149C /* Tests_iOS.swift */,
-				CA87BD98283B958700AB149C /* Tests_iOSLaunchTests.swift */,
-			);
-			path = "Tests iOS";
-			sourceTree = "<group>";
-		};
-		CA87BDA1283B958700AB149C /* Tests macOS */ = {
-			isa = PBXGroup;
-			children = (
-				CA87BDA2283B958700AB149C /* Tests_macOS.swift */,
-				CA87BDA4283B958700AB149C /* Tests_macOSLaunchTests.swift */,
-			);
-			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA87BDBB283B976C00AB149C /* menu.json in Resources */,
 				CA87BDAA283B958700AB149C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA87BDBC283B976C00AB149C /* menu.json in Resources */,
 				CA87BDAB283B958700AB149C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +286,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA87BDA8283B958700AB149C /* ContentView.swift in Sources */,
+				CA87BDC4283B9C8600AB149C /* MenuView.swift in Sources */,
+				CA87BDBE283B981F00AB149C /* Drink.swift in Sources */,
+				CA87BDC0283B994400AB149C /* MenuSection.swift in Sources */,
 				CA87BDA6283B958700AB149C /* CoolBeansApp.swift in Sources */,
+				CA2E5A7D283BB214006987C2 /* ConfigurationOption.swift in Sources */,
+				CA2E5A7B283BADB8006987C2 /* CustomizeView.swift in Sources */,
+				CA87BDC2283B997B00AB149C /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,8 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA87BD99283B958700AB149C /* Tests_iOSLaunchTests.swift in Sources */,
-				CA87BD97283B958700AB149C /* Tests_iOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +316,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA87BDA5283B958700AB149C /* Tests_macOSLaunchTests.swift in Sources */,
-				CA87BDA3283B958700AB149C /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
