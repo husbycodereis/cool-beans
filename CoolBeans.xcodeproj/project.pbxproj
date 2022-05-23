@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CA2E5A7B283BADB8006987C2 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */; };
 		CA2E5A7D283BB214006987C2 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */; };
+		CA2E5A7F283BCB09006987C2 /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7E283BCB09006987C2 /* Serving.swift */; };
 		CA87BDA6283B958700AB149C /* CoolBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD7E283B958700AB149C /* CoolBeansApp.swift */; };
 		CA87BDA7283B958700AB149C /* CoolBeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD7E283B958700AB149C /* CoolBeansApp.swift */; };
 		CA87BDA8283B958700AB149C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BD7F283B958700AB149C /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
 		CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
+		CA2E5A7E283BCB09006987C2 /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
 		CA87BD7E283B958700AB149C /* CoolBeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolBeansApp.swift; sourceTree = "<group>"; };
 		CA87BD7F283B958700AB149C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA87BD80283B958700AB149C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				CA87BD7F283B958700AB149C /* ContentView.swift */,
 				CA87BDC3283B9C8600AB149C /* MenuView.swift */,
 				CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */,
+				CA2E5A7E283BCB09006987C2 /* Serving.swift */,
 				CA87BDBF283B994400AB149C /* MenuSection.swift */,
 				CA87BDC1283B997B00AB149C /* Menu.swift */,
 				CA87BDBA283B976C00AB149C /* menu.json */,
@@ -293,6 +296,7 @@
 				CA2E5A7D283BB214006987C2 /* ConfigurationOption.swift in Sources */,
 				CA2E5A7B283BADB8006987C2 /* CustomizeView.swift in Sources */,
 				CA87BDC2283B997B00AB149C /* Menu.swift in Sources */,
+				CA2E5A7F283BCB09006987C2 /* Serving.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
