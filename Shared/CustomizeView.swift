@@ -90,6 +90,11 @@ struct CustomizeView: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationTitle(drink.name)
+        .toolbar {
+            Button("Save"){
+                history.add(drink, size: sizeOptions[size].rawValue, extraShots: extraShots, isDecaf: isDecaf, milk: milk, syrup: syrup, caffeine: caffeine, calories: calories)
+            }
+        }
     }
 }
 
