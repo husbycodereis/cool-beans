@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA11DC50283CD0680090F18A /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA11DC4F283CD0680090F18A /* FileManager-DocumentsDirectory.swift */; };
+		CA11DC52283CD0AE0090F18A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA11DC51283CD0AE0090F18A /* History.swift */; };
 		CA2E5A7B283BADB8006987C2 /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */; };
 		CA2E5A7D283BB214006987C2 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */; };
 		CA2E5A7F283BCB09006987C2 /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E5A7E283BCB09006987C2 /* Serving.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA11DC4F283CD0680090F18A /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		CA11DC51283CD0AE0090F18A /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
 		CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 		CA2E5A7E283BCB09006987C2 /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
@@ -107,6 +111,8 @@
 				CA87BDC3283B9C8600AB149C /* MenuView.swift */,
 				CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */,
 				CA2E5A7E283BCB09006987C2 /* Serving.swift */,
+				CA11DC4F283CD0680090F18A /* FileManager-DocumentsDirectory.swift */,
+				CA11DC51283CD0AE0090F18A /* History.swift */,
 				CA87BDBF283B994400AB149C /* MenuSection.swift */,
 				CA87BDC1283B997B00AB149C /* Menu.swift */,
 				CA87BDBA283B976C00AB149C /* menu.json */,
@@ -291,9 +297,11 @@
 				CA87BDA8283B958700AB149C /* ContentView.swift in Sources */,
 				CA87BDC4283B9C8600AB149C /* MenuView.swift in Sources */,
 				CA87BDBE283B981F00AB149C /* Drink.swift in Sources */,
+				CA11DC52283CD0AE0090F18A /* History.swift in Sources */,
 				CA87BDC0283B994400AB149C /* MenuSection.swift in Sources */,
 				CA87BDA6283B958700AB149C /* CoolBeansApp.swift in Sources */,
 				CA2E5A7D283BB214006987C2 /* ConfigurationOption.swift in Sources */,
+				CA11DC50283CD0680090F18A /* FileManager-DocumentsDirectory.swift in Sources */,
 				CA2E5A7B283BADB8006987C2 /* CustomizeView.swift in Sources */,
 				CA87BDC2283B997B00AB149C /* Menu.swift in Sources */,
 				CA2E5A7F283BCB09006987C2 /* Serving.swift in Sources */,

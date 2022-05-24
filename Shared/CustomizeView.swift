@@ -15,6 +15,8 @@ struct CustomizeView: View {
     let drink: Drink
     
     @EnvironmentObject var menu: Menu
+    @EnvironmentObject var history: History
+    
     @State private var size = 0
     @State private var isDecaf = false
     @State private var extraShots = 0
