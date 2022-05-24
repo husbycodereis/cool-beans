@@ -24,6 +24,7 @@
 		CA87BDC0283B994400AB149C /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDBF283B994400AB149C /* MenuSection.swift */; };
 		CA87BDC2283B997B00AB149C /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDC1283B997B00AB149C /* Menu.swift */; };
 		CA87BDC4283B9C8600AB149C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDC3283B9C8600AB149C /* MenuView.swift */; };
+		CAF15204283D034A0052F654 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87BDC3283B9C8600AB149C /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,18 +108,11 @@
 			isa = PBXGroup;
 			children = (
 				CA87BD7E283B958700AB149C /* CoolBeansApp.swift */,
-				CA87BD7F283B958700AB149C /* ContentView.swift */,
-				CA87BDC3283B9C8600AB149C /* MenuView.swift */,
-				CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */,
-				CA2E5A7E283BCB09006987C2 /* Serving.swift */,
-				CA11DC4F283CD0680090F18A /* FileManager-DocumentsDirectory.swift */,
-				CA11DC51283CD0AE0090F18A /* History.swift */,
-				CA87BDBF283B994400AB149C /* MenuSection.swift */,
-				CA87BDC1283B997B00AB149C /* Menu.swift */,
-				CA87BDBA283B976C00AB149C /* menu.json */,
+				CAF15203283D02F90052F654 /* Model */,
+				CAF15202283D02F30052F654 /* Service */,
+				CAF15201283D02EB0052F654 /* ViewModel */,
+				CAF15200283D02E60052F654 /* View */,
 				CA87BD80283B958700AB149C /* Assets.xcassets */,
-				CA87BDBD283B981F00AB149C /* Drink.swift */,
-				CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -132,6 +126,45 @@
 				CA87BD9E283B958700AB149C /* Tests macOS.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF15200283D02E60052F654 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E5A7A283BADB8006987C2 /* CustomizeView.swift */,
+				CA87BDC3283B9C8600AB149C /* MenuView.swift */,
+				CA87BD7F283B958700AB149C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAF15201283D02EB0052F654 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA11DC51283CD0AE0090F18A /* History.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CAF15202283D02F30052F654 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CA11DC4F283CD0680090F18A /* FileManager-DocumentsDirectory.swift */,
+				CA87BDBA283B976C00AB149C /* menu.json */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		CAF15203283D02F90052F654 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA2E5A7E283BCB09006987C2 /* Serving.swift */,
+				CA87BDBF283B994400AB149C /* MenuSection.swift */,
+				CA87BDBD283B981F00AB149C /* Drink.swift */,
+				CA87BDC1283B997B00AB149C /* Menu.swift */,
+				CA2E5A7C283BB214006987C2 /* ConfigurationOption.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA87BDA9283B958700AB149C /* ContentView.swift in Sources */,
+				CAF15204283D034A0052F654 /* MenuView.swift in Sources */,
 				CA87BDA7283B958700AB149C /* CoolBeansApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
