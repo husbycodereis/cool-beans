@@ -10,7 +10,8 @@ import SwiftUI
 struct MenuView: View {
     //EnvironmentObject reads the value of a variable outside the view from somewhere else
     @EnvironmentObject var menu: Menu
-    
+    @Environment(\.dismiss) var dismiss
+    @State private var searchText = ""
     let columns = [
         GridItem(.adaptive(minimum: 150))
     ]
@@ -21,9 +22,12 @@ struct MenuView: View {
                 LazyVGrid(columns: columns, pinnedViews:  .sectionHeaders) {
                     ForEach(menu.sections){ section in
                         Section {
-                            ForEach(section.drinks){ drink in
+                            ForEach(section.matches(for: searchText)){ drink in
                                 NavigationLink {
-                                    CustomizeView(drink: drink)
+                                    // In CustomizeView we have created a void callback that takes the dismiss() environment action in MenuView and once the CustomizeView save button is pressed, the dismiss on MenuView gets triggered
+                                    CustomizeView(drink: drink) {
+                                        dismiss()
+                                    }
                                 } label: {
                                     VStack{
                                         Image(drink.image)
@@ -52,6 +56,7 @@ struct MenuView: View {
                 .padding(.horizontal)
             }
             .navigationTitle("Add Drink")
+            .searchable(text: $searchText)
         }
     }
 }

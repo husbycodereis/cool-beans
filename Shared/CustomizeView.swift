@@ -13,7 +13,7 @@ enum SizeOptions: String, CaseIterable{
 
 struct CustomizeView: View {
     let drink: Drink
-    
+    let dismiss: ()-> Void
     @EnvironmentObject var menu: Menu
     @EnvironmentObject var history: History
     
@@ -93,6 +93,8 @@ struct CustomizeView: View {
         .toolbar {
             Button("Save"){
                 history.add(drink, size: sizeOptions[size].rawValue, extraShots: extraShots, isDecaf: isDecaf, milk: milk, syrup: syrup, caffeine: caffeine, calories: calories)
+                
+                dismiss()
             }
         }
     }
@@ -100,6 +102,6 @@ struct CustomizeView: View {
 
 struct CustomizeView_Previews: PreviewProvider {
     static var previews: some View {
-        CustomizeView(drink: Drink.example)
+        CustomizeView(drink: Drink.example){}
     }
 }
